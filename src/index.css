@@ -1,12 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Noto+Serif&display=swap');
+@font-face {
+  font-family: 'Avenir';
+  src: url('./fonts/Avenir.ttc') format('truetype');
+}
+@font-face {
+  font-family: 'Rockwell';
+  src: url('./fonts/Rockwell.ttc') format('truetype');
+}
+
 body {
+  padding: 0;
   margin: 0;
+  overflow-x: hidden;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+h3{
+  font-family: 'Rockwell', sans-serif;
+  font-size: 1.7em;
+}
+h4{
+  font-family: 'Rockwell', sans-serif;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

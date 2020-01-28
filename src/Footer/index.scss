@@ -1,0 +1,26 @@
+.o-footer-sponsor{
+    position: relative;
+    padding: 2em;
+    background: rgba(0, 0, 0, 0.13);
+    text-align: left;
+    font-family: 'Rockwell';
+    font-size: 1.15em;
+}
+.o-footer-frat{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+    background: rgba(0, 0, 0, 0.95);
+    font-family: 'Avenir', sans-serif;
+    color: #fff;
+}
+.o-footer-tagline{
+    position: relative;
+    text-align: left;
+}
+.o-footer-contact{
+    text-align: right;
+    position: relative;
+    margin-right: 0;
+}

@@ -1,0 +1,74 @@
+.o-brothers-title{
+    position: relative;
+    padding: 12em 4em 10em 4em;
+    background: url('bros.jpg') center center;
+    background-size: cover;
+}
+.o-brothers-title-heading{
+    position: relative;
+    display: block;
+    padding: .1em .5em .1em .5em;
+    width: 300px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-family: 'Avenir', sans-serif;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+.o-brothers-diversity{
+    position: relative;
+    padding: 4em 1em 4em 1em;
+}
+.o-brothers-diversity-sections{
+    position: relative;
+    margin: auto;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.o-brothers-diversity-sections-section{
+    position: relative;
+    padding: .5em;
+    margin-right: 4em;
+
+    .o-brothers-diversity-sections-section-image{
+        height: 200px;
+        width: 200px;
+        background: url('ellipse.png') center center;
+        background-size: cover;
+        margin-bottom: 25px; 
+    }
+    h5{
+        font-family: 'Avenir', sans-serif;
+        font-size: 1.3em;
+    }
+}
+.o-brothers-diversity-sections-section:nth-child(3){
+    margin-right: 0;
+}
+.o-brothers-companies-logos{
+    width: 50vw;
+    height: auto;
+}
+
+.o-brothers-list{
+    position: relative;
+    padding: 3em;
+    text-align: left;
+    h3{
+        font-family: 'Rockwell';
+        font-size: 2em;
+        font-weight: 600;
+    }
+    .o-brothers-list-item{
+        .o-brothers-list-item-header{
+            padding: 1em 0 1em 0;
+            h4{
+                font-family: 'Avenir', sans-serif;
+                font-size: 1.5em;
+            }
+        }
+    }
+}

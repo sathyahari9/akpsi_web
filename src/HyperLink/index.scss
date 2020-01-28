@@ -1,0 +1,16 @@
+.o-link{
+    box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all ease .4s;
+}
+.o-link-white{
+    box-shadow: inset 0 -5px 0 rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    transition: all ease .4s;
+}
+.o-link:hover{
+    box-shadow: inset 0 -5px 0 rgba(0, 0, 0, .5);
+}
+.o-link-white:hover{
+    box-shadow: inset 0 -5px 0 rgba(255, 255, 255, .4);
+}

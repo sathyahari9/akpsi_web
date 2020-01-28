@@ -1,0 +1,218 @@
+.o-main{
+    padding: 5em;
+    padding-top: 10em;
+    padding-bottom: 12em;
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.6)), 
+    url('background.jpg') fixed center center;
+    background-size: cover;
+}
+
+// To navigate file, search for:
+// 1. Header
+// 2. About
+// 3. Previews
+// 4. Activities
+// 5. Animations
+
+// Header section
+.o-main-header{
+    position: relative;
+    margin: 0;
+    color: #fff;
+
+    h1{
+        font-size: 3em;
+        text-align: left;
+        line-height: 1.3em;
+        font-family: 'Avenir', sans-serif;
+        margin-bottom: .5em;
+
+        .o-main-header-top{
+            font-weight: 400;
+            color: rgba($color: #fff, $alpha: 1);
+            animation: o-main-header-open-1 1.2s;
+            animation-iteration-count: 1;
+        }
+        .o-main-header-mid{
+            font-weight: 600;
+            color: rgba($color: #fff, $alpha: 1);
+            // box-shadow: inset 0 -3px 0 rgba($color: #fff, $alpha: .3);
+            animation: o-main-header-open-2 1.6s;
+            animation-iteration-count: 1;
+        }
+        .o-main-header-bottom{
+            font-weight: 500;
+            animation: o-main-header-open-3 2s;
+            animation-iteration-count: 1;
+        }
+    }
+
+    .o-main-header-button{
+        margin-left: 0;
+        animation: o-main-header-open-4 2.4s;
+        animation-iteration-count: 1;
+    }
+}
+
+// About sections
+.o-main-about{
+    position: relative;
+    padding: 2.5em 8em 2.5em 5em;
+    background: #F8F8F8;
+    text-align: left;
+    font-family: 'Avenir', sans-serif;
+    font-size: 1.2em;
+}
+
+// Previews section
+.o-main-previews{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .o-main-preview{
+        position: relative;
+        width: 100%;
+        padding: 2.5em 3.5em 2.5em 3.5em;
+        background: #000;
+        color: #fff;
+        text-align: left;
+        p{
+            font-family: 'Avenir', sans-serif;
+        }
+        h4{
+            font-size: 1.6em;
+        }
+    }
+    .o-main-preview-bros{
+        background: linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.6)), 
+        url('bros.jpg') center center;
+        background-size: cover;
+    }
+    .o-main-preview-alums{
+        background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.7)), 
+        url('alums.jpg') center center;
+        background-size: cover;
+    }
+}
+
+// Activities section
+.o-main-activities-wrapper{
+    padding-top: 3em;
+    text-align: center;
+    
+    .o-main-activities{
+        position: relative;
+        padding: 2em 4em 3em 4em;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    
+        .o-main-activities-activity{
+            position: relative;
+            margin-bottom: 1em;
+    
+            .o-main-activities-activity-image{
+                position: relative;
+                height: 200px;
+                width: 200px;
+                margin: auto;
+                
+            }
+            .o-main-activities-activity-professional{
+                background: url('professional.png') center center;
+                background-size: cover;
+            }
+            .o-main-activities-activity-social{
+                background: url('social.png') center center;
+                background-size: cover;
+            }
+            .o-main-activities-activity-service{
+                background: url('service.png') center center;
+                background-size: cover;
+            }
+            .o-main-activities-activity-caption{
+                position: relative;
+                padding: .5em 1.5em .5em 1.5em;
+                font-size: 1.1em;
+                font-family: 'Avenir', sans-serif;
+                h4{
+                    font-size: 1.4em;
+                    margin-bottom: 1em;
+                }
+            }
+        }
+    }
+
+}
+// Subscribe section
+.o-main-subscribe{
+    padding: 2.5em 3.5em 2.5em 3.5em;
+    background: #F8F8F8;
+    text-align: left;
+    .o-main-subscribe-box{
+        height: 30px;
+        padding: .2em;
+        font-size: 1.5em;
+        border: 2px solid rgba(0,0,0,.1);
+        box-shadow: none;
+        transition: all ease .4s;
+    }
+    .o-main-subscribe-box:focus{
+        box-shadow: none;
+        border: 2px solid rgba(0,0,0,.25);
+        outline: none;
+    }
+}
+
+// Animations
+@keyframes o-main-header-open-1{
+    0%{
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes o-main-header-open-2{
+    0%{
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    20%{
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes o-main-header-open-3{
+    0%{
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    40%{
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes o-main-header-open-4{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
