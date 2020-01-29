@@ -1,8 +1,13 @@
 .o-brothers-title{
     position: relative;
     padding: 12em 1em 10em 1em;
-    background: url('bros.jpg') center center;
+    background: url('bros.jpg') fixed center center;
     background-size: cover;
+    @media (max-width: 900px) {
+        background: url('bros.jpg') center center;
+        background-size: cover;
+
+    }
 }
 .o-brothers-title-heading{
     position: relative;
