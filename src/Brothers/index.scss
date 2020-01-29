@@ -1,13 +1,13 @@
 .o-brothers-title{
     position: relative;
-    padding: 12em 4em 10em 4em;
+    padding: 12em 1em 10em 1em;
     background: url('bros.jpg') center center;
     background-size: cover;
 }
 .o-brothers-title-heading{
     position: relative;
     display: block;
-    padding: .1em .5em .1em .5em;
+    padding: .3em .5em .1em .5em;
     width: 300px;
     margin: auto;
     background: rgba(0, 0, 0, 0.6);
@@ -28,6 +28,11 @@
     flex-direction: row;
     justify-content: center;
 }
+@media (max-width: 900px){
+    .o-brothers-diversity-sections{
+        flex-direction: column;
+    }
+}
 .o-brothers-diversity-sections-section{
     position: relative;
     padding: .5em;
@@ -45,9 +50,21 @@
         font-size: 1.3em;
     }
 }
+
 .o-brothers-diversity-sections-section:nth-child(3){
     margin-right: 0;
 }
+
+@media (max-width: 900px){
+    .o-brothers-diversity-sections-section{
+        margin: auto;
+        margin-right: auto;
+    }
+    .o-brothers-diversity-sections-section:nth-child(3){
+        margin-right: auto;
+    }
+}
+
 .o-brothers-companies-logos{
     width: 50vw;
     height: auto;

@@ -26,9 +26,9 @@ class Home extends Component{
                         Who are we?
                         </h3>
                         <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque posuere blandit sapien, id accumsan libero sagittis id. 
-                        Pellentesque a sapien eu libero vulputate rutrum. Pellentesque posuere blandit sapien, id accumsan libero sagittis id. 
-                        Pellentesque a sapien eu libero vulputate rutrum. <br/><br/>
+                        We are Carnegie Mellon University's premier professional fraternity. Our fraternity also places a high emphasis on leadership, 
+                        having brothers that are leaders within our organization as well as across the Carnegie Mellon campus.
+                        We accomplish this through various professional and service initiatives.<br/><br/>
                         <Link>Read more about us here</Link>
                         </p>
                     </Fade>
@@ -40,8 +40,9 @@ class Home extends Component{
                                 Brothers
                             </h4>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque posuere blandit sapien, id accumsan libero sagittis id.<br/><br/>
-                                <Link className="o-link-white">Learn about our brothers</Link>
+                            As brothers, we are united by our passion for business, professional development, and dedication to our 
+                            fraternity, and we constantly provide each other with assured comfort and support. <br/><br/>                                 
+                            <Link className="o-link-white">Learn about our brothers</Link>
                             </p>
                         </Fade>
                     </div>
@@ -51,7 +52,8 @@ class Home extends Component{
                                 Alumni
                             </h4>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque posuere blandit sapien, id accumsan libero sagittis id.<br/><br/>
+                                Our alumni lead by example; not only do they go on to become successfull industry experts and entrepreneurs,
+                                 but they also give back to younger brothers by constantly offering their guidance.<br/><br/>
                                 <Link className="o-link-white">Learn about our alumni</Link>
                             </p>
                         </Fade>
@@ -68,8 +70,9 @@ class Home extends Component{
                             </div>
                             <div className="o-main-activities-activity-caption">
                                 <h4>Professional</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque posuere blandit sapien, 
-                                id accumsan libero sagittis id.</p>
+                                <p>Our brothers have benefitted from the chapter's professional development program
+                                     and network. We keep each other accountable to ensure that we reach our professional goals.
+                                </p>
                             </div>
                         </div>
                         <div className="o-main-activities-activity">
@@ -78,8 +81,9 @@ class Home extends Component{
                             </div>
                             <div className="o-main-activities-activity-caption">
                                 <h4>Service</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque posuere blandit sapien, 
-                                id accumsan libero sagittis id.</p>
+                                <p>Service is an important aspect of Alpha Kappa Psi. Our chapter organizes various campus-wide service events
+                                 and is the only chapter in the nation to offer a scholarship program for high school students.
+                                </p>
                             </div>
                         </div>
                         <div className="o-main-activities-activity">
@@ -88,8 +92,9 @@ class Home extends Component{
                             </div>
                             <div className="o-main-activities-activity-caption">
                                 <h4>Social</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque posuere blandit sapien, 
-                                id accumsan libero sagittis id.</p>
+                                <p>As a brotherhood, the friendships we form go way beyond just business and college activities. We often go on
+                                     plan trips with each other, study abroad, pursue different hobbies, and enjoy getting to know each other on a personal level.
+                                </p>
                             </div>
                         </div>
                     </div>
