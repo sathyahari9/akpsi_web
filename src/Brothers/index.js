@@ -53,20 +53,77 @@ class Brothers extends Component{
                     <img src={Companies} className="o-brothers-companies-logos"/>
                 </div>
                 <div className="o-brothers-list">
-                    <h3>Brothers by class</h3>
+                    <h3>Active brothers</h3>
                 <Accordion defaultActiveKey="0">
                     <div className="o-brothers-list-item">
-                        <Accordion.Toggle as={Button} variant="link" eventKey="0">
+                        <Accordion.Toggle as={Button} variant="light" eventKey="0">
                             <div className="o-brothers-list-item-header">
                                 <h4>Omega class</h4>
                             </div>
                         </Accordion.Toggle>
                         <Accordion.Collapse eventKey="0">
-                            <div className="o-brothers-list-item-body">Hello! I'm the body</div>
+                            <div className="o-brothers-list-item-body">
+                                <div className="o-brothers-list-item-class">
+                                    <div className="o-brothers-list-item-class-bro">
+                                        <div className="o-brothers-list-item-class-bro-photo"/>
+                                        <div className="o-brothers-list-item-class-bro-caption">
+                                          Steven Han
+                                        </div>
+                                    </div>
+                                    <div className="o-brothers-list-item-class-bro">
+                                        <div className="o-brothers-list-item-class-bro-photo"/>
+                                        <div className="o-brothers-list-item-class-bro-caption">
+                                          Steven Han
+                                        </div>
+                                    </div>
+                                    <div className="o-brothers-list-item-class-bro">
+                                        <div className="o-brothers-list-item-class-bro-photo"/>
+                                        <div className="o-brothers-list-item-class-bro-caption">
+                                          Steven Han
+                                        </div>
+                                    </div>
+                                    <div className="o-brothers-list-item-class-bro">
+                                        <div className="o-brothers-list-item-class-bro-photo"/>
+                                        <div className="o-brothers-list-item-class-bro-caption">
+                                          Steven Han
+                                        </div>
+                                    </div>
+                                    <div className="o-brothers-list-item-class-bro">
+                                        <div className="o-brothers-list-item-class-bro-photo"/>
+                                        <div className="o-brothers-list-item-class-bro-caption">
+                                          Steven Han
+                                        </div>
+                                    </div>
+                                    <div className="o-brothers-list-item-class-bro">
+                                        <div className="o-brothers-list-item-class-bro-photo"/>
+                                        <div className="o-brothers-list-item-class-bro-caption">
+                                          Steven Han
+                                        </div>
+                                    </div>
+                                    <div className="o-brothers-list-item-class-bro">
+                                        <div className="o-brothers-list-item-class-bro-photo"/>
+                                        <div className="o-brothers-list-item-class-bro-caption">
+                                          Steven Han
+                                        </div>
+                                    </div>
+                                    <div className="o-brothers-list-item-class-bro">
+                                        <div className="o-brothers-list-item-class-bro-photo"/>
+                                        <div className="o-brothers-list-item-class-bro-caption">
+                                          Steven Han
+                                        </div>
+                                    </div>
+                                    <div className="o-brothers-list-item-class-bro">
+                                        <div className="o-brothers-list-item-class-bro-photo"/>
+                                        <div className="o-brothers-list-item-class-bro-caption">
+                                          Steven Han
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </Accordion.Collapse>
                     </div>
                     <div className="o-brothers-list-item">
-                        <Accordion.Toggle as={Button} variant="link" eventKey="1">
+                        <Accordion.Toggle as={Button} variant="light" eventKey="1">
                             <div className="o-brothers-list-item-header">
                                 <h4>Alpha Beta class</h4>
                             </div>
@@ -76,7 +133,7 @@ class Brothers extends Component{
                         </Accordion.Collapse>
                     </div>
                     <div className="o-brothers-list-item">
-                        <Accordion.Toggle as={Button} variant="link" eventKey="2">
+                        <Accordion.Toggle as={Button} variant="light" eventKey="2">
                             <div className="o-brothers-list-item-header">
                                 <h4>Alpha Gamma class</h4>
                             </div>

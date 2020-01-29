@@ -106,8 +106,6 @@ class Home extends Component{
                     </div>
                     <input className="o-main-subscribe-box" type="text"/>
                 </div>
-                <Footer>
-                </Footer>
             </React.Fragment>
         );
     }

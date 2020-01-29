@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import './App.css';
 import Menu from './Menu';
+import Footer from './Footer';
 import Home from './Home';
 import Brothers from './Brothers';
 
@@ -23,6 +24,8 @@ function App() {
             <Home></Home>
           </Route>
         </Switch>
+        <Footer>
+        </Footer>
       </div>
     </Router>
   );
