@@ -144,7 +144,12 @@
             }
         }
     }
-
+    @media (max-width: 900px){
+        .o-main-activities{
+            flex-direction: column;
+            padding: 2em 1.5em 1.5m 2em;
+        }
+    }
 }
 // Subscribe section
 .o-main-subscribe{
@@ -152,7 +157,7 @@
     background: #F8F8F8;
     text-align: left;
     .o-main-subscribe-box{
-        height: 30px;
+        height: 40px;
         padding: .2em;
         font-size: 1.5em;
         border: 2px solid rgba(0,0,0,.1);
@@ -214,5 +219,27 @@
     }
     100%{
         opacity: 1;
+    }
+}
+
+@media (max-width: 900px){
+    .o-main{
+        padding: 1.5em;
+        padding-top: 10em;
+        padding-bottom: 8em;
+    }
+    .o-main-header{
+        font-size: .8em;
+    }
+    .o-main-about{
+        padding: 2em;
+        font-size: 1em;
+
+    }
+    .o-main-previews{
+        flex-direction: column;
+    }
+    .o-main-preview{
+        padding: .5em;
     }
 }

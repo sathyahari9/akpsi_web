@@ -13,7 +13,7 @@ class Home extends Component{
                 <div className="o-main">
                     <div className="o-main-header">
                         <h1>
-                        <div className="o-main-header-top">Developing <br/></div>
+                        <div className="o-main-header-top">Developing</div>
                         <div className="o-main-header-mid">principled &amp; professional <br/></div>
                         <div className="o-main-header-bottom">business leaders for tomorrow</div>
                         </h1>
