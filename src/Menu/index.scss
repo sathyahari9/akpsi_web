@@ -79,11 +79,12 @@
 }
 .o-menu-responsive-visible{
     height: 100vh;
-    width: 60vw;
+    width: 50vw;
     position: fixed;
     background: #000;
     z-index: 9998;
     left: 0;
+    transition: all ease .4s;
 }
 
 .o-menu-responsive-invisible{
@@ -93,8 +94,21 @@
     background: #000;
     z-index: 9998;
     left: -60vw;
+    transition: all ease .4s;
 }
 
+.o-menu-responsive-item{
+    position: relative;
+    display: block;
+    font-family: 'Avenir', sans-serif;
+    font-size: 1.3em;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+}
+.o-menu-responsive-item:hover{
+    text-decoration: none;
+}
 
 @media (max-width: 900px){
     .o-menu-item{

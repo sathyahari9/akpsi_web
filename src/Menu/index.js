@@ -49,10 +49,10 @@ class Menu extends Component{
                     </div>
                 </div>
                 <div className={this.state.visible ? ' o-menu-responsive-invisible' : 'o-menu-responsive-visible'}>
-                    <Link to="/">
+                    <Link to="/" className="o-menu-responsive-item">
                         Home
                     </Link>
-                    <Link to="/brothers">
+                    <Link to="/brothers" className="o-menu-responsive-item">
                         Brotherhood
                     </Link>
                 </div>
