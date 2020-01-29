@@ -6,6 +6,11 @@
     background: linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.6)), 
     url('background.jpg') fixed center center;
     background-size: cover;
+    @media (max-width: 900px){
+        background: linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.6)), 
+        url('background.jpg') center center;
+        background-size: cover;
+    }
 }
 
 // To navigate file, search for:
