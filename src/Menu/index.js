@@ -61,6 +61,9 @@ class Menu extends Component{
                     <Link to="/brothers" onClick={this.handleClickLink} className="o-menu-responsive-item">
                         Brotherhood
                     </Link>
+                    <Link to="/about" onClick={this.handleClickLink} className="o-menu-responsive-item">
+                        About
+                    </Link>
                 </div>
 
             </React.Fragment>

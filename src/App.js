@@ -9,6 +9,7 @@ import Menu from './Menu';
 import Footer from './Footer';
 import Home from './Home';
 import Brothers from './Brothers';
+import About from './About';
 
 function App() {
   return (
@@ -17,12 +18,9 @@ function App() {
         <Menu>
         </Menu>
         <Switch>
-          <Route path="/brothers">
-            <Brothers></Brothers>
-          </Route>
-          <Route path="/">
-            <Home></Home>
-          </Route>
+          <Route path="/brothers" component = {Brothers}/>
+          <Route path="/about" component = {About}/>
+          <Route path="/" component = {Home}/>
         </Switch>
         <Footer>
         </Footer>

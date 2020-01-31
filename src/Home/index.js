@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import Button from '../Button';
 import Link from '../HyperLink';
-import Footer from '../Footer';
 import Fade from 'react-reveal/Fade';
 
 import './index.scss';
