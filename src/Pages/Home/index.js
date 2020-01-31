@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import Button from '../Button';
-import Link from '../HyperLink';
+import Button from '../../Components/Button';
+import Link from '../../Components/HyperLink';
 import Fade from 'react-reveal/Fade';
 
 import './index.scss';
@@ -100,6 +100,7 @@ class Home extends Component{
                     </Fade>
                 </div>
                 <div className="o-main-subscribe">
+                    {/* Needs to be integrated with CMU Akpsi sign up sheet */}
                     <h3>Join our mailing list</h3>
                     <div className="o-main-subscribe-desc">
                     </div>

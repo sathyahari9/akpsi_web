@@ -7,14 +7,16 @@ class About extends Component{
         return(
         <div className="o-about-wrapper">
             <div className="o-about-wrapper-left">
-                
+                {/* Left empty for image, disappears on mobile */}
             </div>
             <div className="o-about-wrapper-right">
-                <Fade>
+                <Fade> 
+                    {/* Fading animation on load */}
                 <h2>
                     Message from our President
                 </h2>
                 <div className="hr"></div>
+                {/* Divider referenced by global class hr */}
                     <p>
                         The largest and oldest professional business fraternity in the nation. A premier developer of principled business leaders. This introduction merely scratches the surface of Alpha Kappa Psi. Carnegie Mellon University's Omega Psi Chapter is proud to be emerging upon our 14th year of providing the brightest business-minded students with professional skills and instilling the important values of brotherhood, knowledge, integrity, and service. <br/>
 

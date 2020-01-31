@@ -5,11 +5,11 @@ import {
   Route,
 } from "react-router-dom";
 import './App.css';
-import Menu from './Menu';
-import Footer from './Footer';
-import Home from './Home';
-import Brothers from './Brothers';
-import About from './About';
+import Menu from './Components/Menu';
+import Footer from './Components/Footer';
+import Home from './Pages/Home';
+import Brothers from './Pages/Brothers';
+import About from './Pages/About';
 
 function App() {
   return (

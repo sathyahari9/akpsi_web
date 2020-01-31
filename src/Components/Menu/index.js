@@ -3,7 +3,6 @@ import {
     Link
   } from "react-router-dom";
 import './index.scss';
-import { ResponsiveEmbed } from 'react-bootstrap';
 
 class Menu extends Component{
     constructor(props){
@@ -18,6 +17,7 @@ class Menu extends Component{
            visible : !this.state.visible
        })
     }
+    // Separate handleClicks for hamburger and hyperlinks to prevent default action on hamburger
     handleClickLink = (e) => {
         // e.preventDefault()
        this.setState({
