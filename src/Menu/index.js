@@ -18,6 +18,12 @@ class Menu extends Component{
            visible : !this.state.visible
        })
     }
+    handleClickLink = (e) => {
+        // e.preventDefault()
+       this.setState({
+           visible : !this.state.visible
+       })
+    }
     render(){
         return(
             <React.Fragment>
@@ -49,10 +55,10 @@ class Menu extends Component{
                     </div>
                 </div>
                 <div className={this.state.visible ? ' o-menu-responsive-invisible' : 'o-menu-responsive-visible'}>
-                    <Link to="/" className="o-menu-responsive-item">
+                    <Link to="/" onClick={this.handleClickLink} className="o-menu-responsive-item">
                         Home
                     </Link>
-                    <Link to="/brothers" className="o-menu-responsive-item">
+                    <Link to="/brothers" onClick={this.handleClickLink} className="o-menu-responsive-item">
                         Brotherhood
                     </Link>
                 </div>
