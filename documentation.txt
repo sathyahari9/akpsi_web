@@ -1,0 +1,21 @@
+Thank you for collaborating on the Alpha Kappa Psi website.
+Feature list can be found at: https://docs.google.com/spreadsheets/d/1AOxn7gJz_bfLhDZjplhwKAV5QDB14YdHQfE6OQPpW20/edit?usp=sharing
+If you wish to make changes to the codebase, or add new features, please
+follow these instructions:
+1. Master branch is only to be merged into by the author (webmaster).
+2. Production is the current branch hosted on netlify. It is the branch that all
+   feature branches are ultimately merged into.
+3. If you wish to modify a particular branch, checkout that particular feature branch,
+   make a branch off this branch and use a descriptive name, for example"api/subscribe/bug_fixes". 
+   If the feature branch does not exist, make a new feature branch from production using a name as 
+   outlined above.
+4. Once you have implemented your changes, test your changes for usability etc. on your local browser.
+   Clean up your code, write some comments (if you haven't already), and submit a pull request on github.com
+5. Once your code is reviewed, it will be merged into the production branch.
+6. Remember the following- DO NOT clone the production branch and push commits to it, always make 
+    your own branch. If you make any changes directly, remember to notify the webmaster.
+
+Finally, if you have any repo-wide suggestions by the way of new technologies to use, feel free 
+to email me at sathyah@andrew.cmu.edu
+
+Once again, thank you for collaborating. Have fun!
