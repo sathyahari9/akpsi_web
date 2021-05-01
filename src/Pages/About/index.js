@@ -7,24 +7,24 @@ import Users from './users-solid.svg';
 import Book from './book-open-solid.svg';
 import Hands from './hands-helping-solid.svg';
 import Heart from './heart-solid.svg';
-import President from './lindsey.jpg';
+// import President from './lindsey.jpg';
 
 class About extends Component{
     render(){
         return(
         <React.Fragment>
         <div className="o-about-wrapper-image">
-            <div className="o-about-wrapper-image-title"><h2>Our chapter</h2></div>
+            <div className="o-about-wrapper-image-title"><h2>Our Chapter</h2></div>
         </div>
         <div className="o-about-values-wrapper">
             <h2 className="o-about-values-heading">
-                Our values
+                Our Values
             </h2>
             <div className="hr"/>
             <div className="o-about-values">
                 <div className="o-about-values-item">
                     <div className="o-about-values-item-image">
-                        <img src={Users}/>
+                        <img src={Users} alt="Users" />
                     </div>
                     <span className="o-about-values-item-caption">
                         Brotherhood
@@ -32,7 +32,7 @@ class About extends Component{
                 </div>
                 <div className="o-about-values-item">
                     <div className="o-about-values-item-image">
-                        <img src={Hands}/>
+                        <img src={Hands} alt="Hands" />
                     </div>
                     <span className="o-about-values-item-caption">
                         Service
@@ -40,7 +40,7 @@ class About extends Component{
                 </div>
                 <div className="o-about-values-item">
                     <div className="o-about-values-item-image">
-                        <img src={Heart}/>
+                        <img src={Heart} alt="Heart" />
                     </div>
                     <span className="o-about-values-item-caption">
                         Unity
@@ -48,7 +48,7 @@ class About extends Component{
                 </div>
                 <div className="o-about-values-item">
                     <div className="o-about-values-item-image">
-                        <img src={Book}/>
+                        <img src={Book} alt="Book" />
                     </div>
                     <span className="o-about-values-item-caption">
                         Knowledge
@@ -61,7 +61,7 @@ class About extends Component{
                 {/* Fading animation on load */}
             {/* <img src={President}/> */}
             <h2>
-                Message from our President
+                Message From Our President
             </h2>
             <div className="hr"></div>
             {/* Divider referenced by global class hr */}
