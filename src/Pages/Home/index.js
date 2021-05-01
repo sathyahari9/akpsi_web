@@ -22,7 +22,7 @@ class Home extends Component{
                 <div className="o-main-about">
                     <Fade big>
                         <h3>
-                        Who are we?
+                        Who Are We?
                         </h3>
                         <p>
                         We are Carnegie Mellon University's premier professional fraternity. Our fraternity also places a high emphasis on leadership, 
@@ -60,7 +60,7 @@ class Home extends Component{
                 </div>
                 <div className="o-main-activities-wrapper">
                     <Fade>
-                    <h3>Activities</h3>
+                   {/*  <h3>Activities</h3> */}
 
                     <div className="o-main-activities">
                         <div className="o-main-activities-activity">
@@ -101,7 +101,7 @@ class Home extends Component{
                 </div>
                 <div className="o-main-subscribe">
                     {/* Needs to be integrated with CMU Akpsi sign up sheet */}
-                    <h3>Join our mailing list</h3>
+                    <h3>Join Our Mailing List</h3><br></br>
                     <div className="o-main-subscribe-desc">
                     </div>
                     <input className="o-main-subscribe-box" type="text"/>

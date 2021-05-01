@@ -238,116 +238,116 @@ class Brothers extends Component{
                 </div>
                 <div className="o-brothers-list">
                     <Fade>
-                    <h3>Active Brothers</h3>
-                <Accordion defaultActiveKey="0">
-                    <div className="o-brothers-list-item">
-                        <Accordion.Toggle as={Button} variant="light" eventKey="0">
-                            <div className="o-brothers-list-item-header">
-                                <h4>Alpha Beta Class</h4>
-                            </div>
-                        </Accordion.Toggle>
-                        <Accordion.Collapse eventKey="0">
+                    <h3>Active Brothers</h3><br></br>
+                    <Accordion defaultActiveKey="0">
+                        <div className="o-brothers-list-item">
+                            <Accordion.Toggle as={Button} variant="light" eventKey="0">
+                                <div className="o-brothers-list-item-header">
+                                    <h4>Alpha Beta Class</h4>
+                                </div>
+                            </Accordion.Toggle>
+                            <Accordion.Collapse eventKey="0">
+                                <div className="o-brothers-list-item-body">
+                                    <div className="o-brothers-list-item-class">
+                                        {this.state.brothers.alphabeta.map((brother) => 
+                                            <div className="o-brothers-list-item-class-bro">
+                                            <img src={require('./pictures/' + brother.first_name + '.jpg')} className="o-brothers-list-item-class-bro-photo" alt="Brother Name" />                                            <div className="o-brothers-list-item-class-bro-caption">
+                                                {brother.first_name} {brother.last_name}
+                                                </div>
+                                            </div>
+                                            )}
+                                    </div>
+                                </div>
+                            </Accordion.Collapse>
+                        </div><br></br>
+                        <div className="o-brothers-list-item">
+                            <Accordion.Toggle as={Button} variant="light" eventKey="1">
+                                <div className="o-brothers-list-item-header">
+                                    <h4>Alpha Gamma Class</h4>
+                                </div>
+                            </Accordion.Toggle>
+                            <Accordion.Collapse eventKey="1">
                             <div className="o-brothers-list-item-body">
-                                <div className="o-brothers-list-item-class">
-                                    {this.state.brothers.alphabeta.map((brother) => 
-                                        <div className="o-brothers-list-item-class-bro">
-                                        <img src={require('./pictures/' + brother.first_name + '.jpg')} className="o-brothers-list-item-class-bro-photo" alt="Brother Name" />                                            <div className="o-brothers-list-item-class-bro-caption">
-                                            {brother.first_name} {brother.last_name}
+                                    <div className="o-brothers-list-item-class">
+                                        {this.state.brothers.alphagamma.map((brother) => 
+                                            <div className="o-brothers-list-item-class-bro">
+                                            <img src={require('./pictures/' + brother.first_name + '.jpg')} className="o-brothers-list-item-class-bro-photo" alt="Brother Name" />
+                                                <div className="o-brothers-list-item-class-bro-caption">
+                                                {brother.first_name} {brother.last_name}
+                                                </div>
                                             </div>
-                                        </div>
-                                        )}
+                                            )}
+                                    </div>
                                 </div>
-                            </div>
-                        </Accordion.Collapse>
-                    </div>
-                    <div className="o-brothers-list-item">
-                        <Accordion.Toggle as={Button} variant="light" eventKey="1">
-                            <div className="o-brothers-list-item-header">
-                                <h4>Alpha Gamma Class</h4>
-                            </div>
-                        </Accordion.Toggle>
-                        <Accordion.Collapse eventKey="1">
-                        <div className="o-brothers-list-item-body">
-                                <div className="o-brothers-list-item-class">
-                                    {this.state.brothers.alphagamma.map((brother) => 
-                                        <div className="o-brothers-list-item-class-bro">
-                                        <img src={require('./pictures/' + brother.first_name + '.jpg')} className="o-brothers-list-item-class-bro-photo" alt="Brother Name" />
-                                            <div className="o-brothers-list-item-class-bro-caption">
-                                            {brother.first_name} {brother.last_name}
+                            </Accordion.Collapse>
+                        </div><br></br>
+                        <div className="o-brothers-list-item">
+                            <Accordion.Toggle as={Button} variant="light" eventKey="2">
+                                <div className="o-brothers-list-item-header">
+                                    <h4>Alpha Delta Class</h4>
+                                </div>
+                            </Accordion.Toggle>
+                            <Accordion.Collapse eventKey="2">
+                                <div className="o-brothers-list-item-body">
+                                    <div className="o-brothers-list-item-class">
+                                        {this.state.brothers.alphadelta.map((brother) => 
+                                            <div className="o-brothers-list-item-class-bro">
+                                            <img src={require('./pictures/' + brother.first_name + '.jpg')} className="o-brothers-list-item-class-bro-photo" alt="Brother Name" />
+                                                <div className="o-brothers-list-item-class-bro-caption">
+                                                {brother.first_name} {brother.last_name}
+                                                </div>
                                             </div>
-                                        </div>
-                                        )}
+                                            )}
+                                    </div>
                                 </div>
-                            </div>
-                        </Accordion.Collapse>
-                    </div>
-                    <div className="o-brothers-list-item">
-                        <Accordion.Toggle as={Button} variant="light" eventKey="2">
-                            <div className="o-brothers-list-item-header">
-                                <h4>Alpha Delta Class</h4>
-                            </div>
-                        </Accordion.Toggle>
-                        <Accordion.Collapse eventKey="2">
-                            <div className="o-brothers-list-item-body">
-                                <div className="o-brothers-list-item-class">
-                                    {this.state.brothers.alphadelta.map((brother) => 
-                                        <div className="o-brothers-list-item-class-bro">
-                                        <img src={require('./pictures/' + brother.first_name + '.jpg')} className="o-brothers-list-item-class-bro-photo" alt="Brother Name" />
-                                            <div className="o-brothers-list-item-class-bro-caption">
-                                            {brother.first_name} {brother.last_name}
+                            </Accordion.Collapse>
+                        </div><br></br>
+                        <div className="o-brothers-list-item">
+                            <Accordion.Toggle as={Button} variant="light" eventKey="3">
+                                <div className="o-brothers-list-item-header">
+                                    <h4>Alpha Epsilon Class</h4>
+                                </div>
+                            </Accordion.Toggle>
+                            <Accordion.Collapse eventKey="3">
+                                <div className="o-brothers-list-item-body">
+                                    <div className="o-brothers-list-item-class">
+                                        {this.state.brothers.alphaepsilon.map((brother) => 
+                                            <div className="o-brothers-list-item-class-bro">
+                                            <img src={require('./pictures/' + brother.first_name + '.jpg')} className="o-brothers-list-item-class-bro-photo" alt="Brother Name" />
+                                                <div className="o-brothers-list-item-class-bro-caption">
+                                                {brother.first_name} {brother.last_name}
+                                                </div>
                                             </div>
-                                        </div>
-                                        )}
+                                            )}
+                                    </div>
                                 </div>
-                            </div>
-                        </Accordion.Collapse>
-                    </div>
-                    <div className="o-brothers-list-item">
-                        <Accordion.Toggle as={Button} variant="light" eventKey="3">
-                            <div className="o-brothers-list-item-header">
-                                <h4>Alpha Epsilon Class</h4>
-                            </div>
-                        </Accordion.Toggle>
-                        <Accordion.Collapse eventKey="3">
-                            <div className="o-brothers-list-item-body">
-                                <div className="o-brothers-list-item-class">
-                                    {this.state.brothers.alphaepsilon.map((brother) => 
-                                        <div className="o-brothers-list-item-class-bro">
-                                        <img src={require('./pictures/' + brother.first_name + '.jpg')} className="o-brothers-list-item-class-bro-photo" alt="Brother Name" />
-                                            <div className="o-brothers-list-item-class-bro-caption">
-                                            {brother.first_name} {brother.last_name}
+                            </Accordion.Collapse>
+                        </div><br></br>
+                        <div className="o-brothers-list-item">
+                            <Accordion.Toggle as={Button} variant="light" eventKey="4">
+                                <div className="o-brothers-list-item-header">
+                                    <h4>Alpha Zeta Class</h4>
+                                </div>
+                            </Accordion.Toggle>
+                            <Accordion.Collapse eventKey="4">
+                                <div className="o-brothers-list-item-body">
+                                    <div className="o-brothers-list-item-class">
+                                        {this.state.brothers.alphazeta.map((brother) => 
+                                            <div className="o-brothers-list-item-class-bro">
+                                            <img src={require('./pictures/' + brother.first_name + '.jpg')} className="o-brothers-list-item-class-bro-photo" alt="Brother Name" />
+                                                <div className="o-brothers-list-item-class-bro-caption">
+                                                {brother.first_name} {brother.last_name}
+                                                </div>
                                             </div>
-                                        </div>
-                                        )}
+                                            )}
+                                    </div>
                                 </div>
-                            </div>
-                        </Accordion.Collapse>
-                    </div>
-                    <div className="o-brothers-list-item">
-                        <Accordion.Toggle as={Button} variant="light" eventKey="4">
-                            <div className="o-brothers-list-item-header">
-                                <h4>Alpha Zeta Class</h4>
-                            </div>
-                        </Accordion.Toggle>
-                        <Accordion.Collapse eventKey="4">
-                            <div className="o-brothers-list-item-body">
-                                <div className="o-brothers-list-item-class">
-                                    {this.state.brothers.alphazeta.map((brother) => 
-                                        <div className="o-brothers-list-item-class-bro">
-                                        <img src={require('./pictures/' + brother.first_name + '.jpg')} className="o-brothers-list-item-class-bro-photo" alt="Brother Name" />
-                                            <div className="o-brothers-list-item-class-bro-caption">
-                                            {brother.first_name} {brother.last_name}
-                                            </div>
-                                        </div>
-                                        )}
-                                </div>
-                            </div>
-                        </Accordion.Collapse>
-                    </div>
-                </Accordion>
-                </Fade>
+                            </Accordion.Collapse>
+                        </div>
+                    </Accordion>
+                    </Fade>
                 </div>
-                <div className="o-brothers-diversity">
+                {/* <div className="o-brothers-diversity">
                     <Fade>
                     <h3>Diversity of Cultures and Disciplines</h3>
                         <div className="o-brothers-diversity-sections">
@@ -368,10 +368,10 @@ class Brothers extends Component{
                             </div>
                         </div>
                     </Fade>
-                </div>
+                </div> */}
                 <div className="o-brothers-companies">
                     <Fade>
-                        <h3>Companies We Work At</h3>
+                        <h3>Companies We Work At</h3><br></br>
                         <img src={Companies} className="o-brothers-companies-logos" alt="Companies" />
                     </Fade>
                 </div>

@@ -41,12 +41,12 @@ class Menu extends Component{
                         <Link to="/brothers" className="o-menu-item">
                             Brotherhood
                         </Link>
-                        <Link to="/alumni" className="o-menu-item">
+                        {/* <Link to="/alumni" className="o-menu-item">
                             Alumni
                         </Link>
                         <Link to="/joinus" className="o-menu-item">
                             Join us
-                        </Link>
+                        </Link> */}
                     </div>
                     <div className="o-menu-hamburger" onClick={this.handleClick}>
                         <span className="o-menu-hamburger-line"/>
